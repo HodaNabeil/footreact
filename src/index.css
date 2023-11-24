@@ -9,3 +9,24 @@
     @apply  border border-black rounded-xl px-5 py-1
   }
 }
+
+@layer {
+  .container {
+    @apply m-auto 
+  }
+  /* .text_center{
+
+
+  } */
+}
+
+/* .text_center {
+  transform: translatex(-50% );
+  top: 50%;
+  left: 50%;
+
+} */
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
