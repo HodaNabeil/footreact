@@ -1,32 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;500;600&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&family=Rubik:wght@400;500;600&display=swap');
 
-
-
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
 @layer base {
   button {
-    @apply  border border-black rounded-xl px-5 py-1
+    @apply  border border-black rounded-[50px] px-5 py-1
   }
 }
-
-@layer {
-  .container {
-    @apply m-auto 
-  }
-  /* .text_center{
-
-
-  } */
-}
-
-/* .text_center {
-  transform: translatex(-50% );
-  top: 50%;
-  left: 50%;
-
-} */
 
 body{
   font-family: 'Poppins', sans-serif;
+}
+
+.font_2 {
+  font-family: 'Kaushan Script', cursive;
+}
+.servies h2 {
+  font-family: 'Kaushan Script', cursive;
 }
