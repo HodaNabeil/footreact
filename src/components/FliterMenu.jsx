@@ -1,7 +1,7 @@
 
 import { BsCartPlus } from "react-icons/bs";
 import { useState } from 'react'
-import   {data}  from'../data/data.js'
+import   {data}  from'../rtk/Slices/data/data.js'
 function FliterMenu() {
   const [foodmenu, setFootmenu]=useState(data);
 

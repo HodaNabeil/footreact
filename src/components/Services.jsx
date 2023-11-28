@@ -1,6 +1,6 @@
 
 import  hero from '../Img/ser.jpg'
-import {data} from '../data/data.js'
+import {data} from '../rtk/Slices/data/data.js'
 import { BsCartPlus } from "react-icons/bs";
 
 import Footer from './Footer.jsx'

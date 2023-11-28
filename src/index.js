@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import {Provider} from 'react-redux';
+
 
 import {
   createBrowserRouter,
@@ -16,7 +18,7 @@ import Footer from './components/Footer';
 import Services from './components/Services';
 import About from './components/About';
 import ScrollTopButton from './components/ScrollTopButton';
-
+import { store } from './rtk/store';
 
 const router = createBrowserRouter([
   {
@@ -51,7 +53,10 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+        <RouterProvider router={router} />
+    </Provider>
+
   </React.StrictMode>
 );
 

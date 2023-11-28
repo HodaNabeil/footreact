@@ -1,7 +1,7 @@
 
 
 // import { useState } from 'react';
-import {categories} from "../data/data.js"
+import {categories} from "../rtk/Slices/data/data.js"
 
 function Category() {
   return (
